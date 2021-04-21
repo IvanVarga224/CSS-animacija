@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+#brod {
+  animation: gibaj 35s infinite ease-in;
+}
+
+@keyframes gibaj {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(1600px);
+  }
+}
